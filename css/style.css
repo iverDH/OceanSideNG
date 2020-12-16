@@ -89,6 +89,7 @@ footer{
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .footer-content{
     margin: 5px;
