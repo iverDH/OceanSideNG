@@ -6,6 +6,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-image: url("stone.png");
     background-repeat: repeat;
+    line-height: 1.5;
 }
 
 /*=====================================MAIN-CONTENT=====================================*/
@@ -71,16 +72,18 @@ nav a:hover{
 #content-holder-right{
     flex: 1;
 }
-.content, .flex-column{
+.content{
     background-color: white;
+    flex-direction: column;
     display: flex;
     margin: 5px;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
-.flex-column{
-    flex-direction: column;
+p, li{
+    font-size: 1.3rem;
 }
+
 /*=====================================FOOTER=====================================*/
 footer{
     height: 10vh;
