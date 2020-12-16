@@ -65,7 +65,7 @@ nav a:hover{
 #content-holder-right{
     flex: 1;
 }
-.content{
+.content, .flex-column{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -73,7 +73,9 @@ nav a:hover{
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
-
+.flex-column{
+    flex-direction: column;
+}
 /*=====================================FOOTER=====================================*/
 footer{
     height: 10vh;
