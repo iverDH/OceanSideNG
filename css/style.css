@@ -26,6 +26,7 @@ body{
     text-align: center;
     background-color: #0099ff;
     font-size: 2rem;
+    
 }
 
 /*=====================================MENU=====================================*/
@@ -37,7 +38,7 @@ nav{
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
-    background-image: linear-gradient(#1f1f1f, #003a61);
+    background-image: linear-gradient(#1f1f1f, #424242);
 }
 nav a{
     height: 100%;
@@ -48,10 +49,10 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-image: linear-gradient(#003a61, #1f1f1f);
+    background-image: linear-gradient(#424242, #1f1f1f);
 }
 .active-link{
-    background-image: linear-gradient(#003a61, #1f1f1f);
+    background-image: linear-gradient(#424242, #1f1f1f);
 }
 
 /*=====================================CONTENT=====================================*/
@@ -86,17 +87,18 @@ p, li{
 
 /*=====================================LIST=====================================*/
 li{
-    border-left: 3px solid #0099ff;
     margin: 15px 0 15px 5px;
-    padding-left: 5px;
 }
 li a{
     text-decoration: none;
+    border-left: 3px solid #0099ff;
+    padding-left: 5px;
     color: white;
 }
 li a:hover{
-    text-decoration: underline;
+    border-left: 3px solid white;
 }
+
 ul{
     list-style: none;
 }
